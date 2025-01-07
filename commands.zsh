@@ -1,3 +1,8 @@
+filename=$1
+
+npm init react-app $filename
+
+cd $filename
 
 npm uninstall react react-dom
 
